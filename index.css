@@ -220,6 +220,7 @@ footer{
 .contato-footer > a > span, .contato-footer > span{
     font-size: 1.13em;
     text-align: center;
+    color: rgb(240, 248, 255);
 }
 .cont-FooterImg{
     height: 40px;
