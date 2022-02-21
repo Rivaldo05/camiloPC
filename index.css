@@ -198,25 +198,15 @@ header{
 
 
 footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
     background-color: var(--headerColor);
-}
-.cont-footer{
-    width: 100vw;
-    max-width: 1285px;
-    padding: 20px 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
 }
 .informacoes-footer{
     display: flex;
     align-items: center;
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 100%;
     padding: 10px;
 }
 .informacoes-footer > a > span, .informacoes-footer > span{
@@ -303,7 +293,7 @@ footer{
         transform: rotate(-310deg);
     }
 }
-
+/*
 @media screen and (min-width:920px) {
     .cont-footer{
         width: 70vw;
@@ -314,4 +304,4 @@ footer{
     .cont-footer{
         width: 100vw;
     }
-}
+}*/
