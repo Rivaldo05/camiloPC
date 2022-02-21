@@ -14,7 +14,9 @@
     --linha: rgb(3, 231, 231);
     --headerColor: rgb(53, 65, 116);
 }
-
+h1{
+    color:rgb(240, 248, 255);
+}
 body, html{
     scroll-behavior: smooth;
     background-color: rgb(131, 179, 255);
@@ -201,7 +203,7 @@ footer{
     align-items: center;
     background-color: var(--headerColor);
 }
-#cont-footer{
+.cont-footer{
     width: 100vw;
     max-width: 1285px;
     padding: 20px 10px;
@@ -210,14 +212,14 @@ footer{
     justify-content: space-around;
     
 }
-.contato-footer{
+.informacoes-footer{
     display: flex;
     align-items: center;
     min-width: 300px;
     max-width: 300px;
     padding: 10px;
 }
-.contato-footer > a > span, .contato-footer > span{
+.informacoes-footer > a > span, .informacoes-footer > span{
     font-size: 1.13em;
     text-align: center;
     color: rgb(240, 248, 255);
@@ -226,6 +228,10 @@ footer{
     height: 40px;
     width: 40px;
     padding: 7px;
+}
+.coluna{
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .img-foote{
     height: 50px;
@@ -299,13 +305,13 @@ footer{
 }
 
 @media screen and (min-width:920px) {
-    #cont-footer{
+    .cont-footer{
         width: 70vw;
     }
 }
 
 @media screen and (min-width:1220px) {
-    #cont-footer{
+    .cont-footer{
         width: 100vw;
     }
 }
