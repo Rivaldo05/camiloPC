@@ -56,7 +56,8 @@ header{
 }
 #header-img{
     height: 100%;
-    width: auto;
+    width: 70px;
+    max-width: 100px;
 
 }
 #lista-menu{
