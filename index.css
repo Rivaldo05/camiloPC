@@ -217,7 +217,6 @@ footer{
     padding: 5px;
     display: flex;
     align-items: center;
-    justify-content: center;
     max-width: 300px;
     flex-basis: 300px;
 }
